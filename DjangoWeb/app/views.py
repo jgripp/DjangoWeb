@@ -45,3 +45,18 @@ def about(request):
             'year':datetime.now().year,
         }
     )
+
+
+def support(request):
+    """Renders the support page."""
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/support.html',
+        {
+            'title':'Support',
+            #'message':'This page details the web page attributes.  You can add more details as funciton and content evolves.  Adding message lines should add text lines.',
+            #'message':'Adding message lines should add text lines.',
+            'year':datetime.now().year,
+        }
+    )
