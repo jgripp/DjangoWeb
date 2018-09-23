@@ -1,0 +1,4 @@
+DjangoWeb Superuser
+
+Account: admin
+Password: HUR%60as
